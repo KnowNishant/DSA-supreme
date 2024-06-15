@@ -5,7 +5,7 @@ int length;
 cout << "enter the length: ";
 cin >> length;
 int i,j;
-for(i=0;i<length;i++){
+for(i=0;i<length;i++)
     for(j=0;j<length-i-1;j++){
         cout << " ";
     }
@@ -14,6 +14,8 @@ for(i=0;i<length;i++){
     }
     cout << endl;
     //changes
+    //cout
+    //try commiting
 
 }
 
