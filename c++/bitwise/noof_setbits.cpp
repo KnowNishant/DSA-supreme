@@ -1,9 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n;
+    int n,z,v;
     cout << "enter a number : ";
     cin >>n;
-    while(n)
+    cin >> z;
+    cin >> v;
+    cout << " "<< n << " "<< z << " "<<v;
     return 0;
 }
