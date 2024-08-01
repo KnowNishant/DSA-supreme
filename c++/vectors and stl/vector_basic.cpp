@@ -10,12 +10,17 @@ int main(){
         cin >> data;
         v.push_back(data);
     }
-       int size=v.size();
-     for(int i=0;i<10;i++){
-       cout << v[i]<<endl;;
-    }
+    //    int size=v.size();
+    //  for(int i=0;i<10;i++){
+    //    cout << v[i]<<endl;;
+    // }
     //to clear vector
-    v.clear();
+    // v.clear();
 
+// alternate printing method for vector
+
+for(auto it:v){
+    cout << it <<" ";
+}
     return 0;
 }
