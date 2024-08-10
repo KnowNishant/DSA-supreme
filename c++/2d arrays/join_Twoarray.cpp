@@ -12,6 +12,7 @@ int main(){
     }
     for(int i=sizea;i<(sizeb+sizea);i++){
         c[i]=b[(i-sizea)];
+        
     }
     for(int i=0;i<(sizeb+sizea);i++){
         cout << " "<<c[i];
