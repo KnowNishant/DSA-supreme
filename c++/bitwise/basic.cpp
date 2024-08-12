@@ -2,6 +2,6 @@
 using namespace std;
 int main(){
 
-    cout << (5<<2);
+    cout << (1^1);
     return 0;
 }
